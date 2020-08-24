@@ -35,3 +35,5 @@ const resetTaskList = () => {
     emptyTaskList: [],
   };
 };
+
+module.exports = { tasksReducer, createTask, resetTaskList };

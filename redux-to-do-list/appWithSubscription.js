@@ -11,7 +11,7 @@ console.log(store.getState());
 store.subscribe(() => console.log(store.getState()));
 
 console.log("Task creation actions");
-store.dispatch(createTask("walk dog"));
+store.dispatch(createTask("walk doggy"));
 store.dispatch(createTask("feed cat"));
 store.dispatch(createTask("talk to bird"));
 store.dispatch(createTask("watch goldfish"));
